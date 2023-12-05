@@ -1,0 +1,172 @@
+
+
+body, html{
+    height: 100%;
+    background-color: #46B62F;
+    margin: 0%;
+}
+.banner-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/mfdoom.jpg);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}   
+
+.banner-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.button{
+    background-color:grey;
+    opacity: 79%;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 8px;
+}
+
+
+@media only screen and (min-width:768px) {
+    div {
+        width: 100%;
+        display: inline-block;
+    }
+
+#Origen{
+    width: 32%;
+    float: left;
+    text-align: left;
+}
+
+#actividad{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+#discografia{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+h2{
+    color: gold;
+}
+h3{
+    color: gold;
+}
+
+#alb-estu{
+    width: 33%;
+    float: left;
+    
+}
+
+#alb-colab{
+    width: 33%;
+    float: left;
+    
+}
+
+#video{
+    width: 33%;
+    float: left;
+}
+
+.footer{
+    padding: 40px 0;
+}
+
+.footer .social{
+    text-align: center;
+}
+
+
+.twitter{
+    width: 5%;
+}
+
+.instagram{
+    width: 5%;
+}
+
+.copyright{
+    text-align: center;
+}
+}
+
+@media only screen and (max-width:768px) {
+    div {
+        width: 100%;
+        display: inline-block;
+    }
+
+#Origen{
+
+    text-align: center;
+}
+
+#actividad{
+
+    text-align: center;
+}
+
+#discografia{
+
+    text-align: center;
+}
+
+h2{
+    color: gold;
+}
+
+h3{
+    color: gold;
+}
+
+#alb-estu{
+    width: 33%;
+}
+
+
+#alb-colab{
+    width: 33%;
+}
+
+#video{
+    width: 33%;
+}
+
+.footer{
+    padding: 40px 0;
+}
+
+.footer .social{
+    text-align: center;
+}
+
+
+.twitter{
+    width: 5%;
+}
+
+.instagram{
+    width: 5%;
+}
+
+.copyright{
+    text-align: center;
+}
+
+}
+
